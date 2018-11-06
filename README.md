@@ -1,5 +1,7 @@
-# vue_admin
+#vue_adminLTE
+ver 0.1版本
 
+github地址：
 > A Vue.js project
 
 ## Build Setup

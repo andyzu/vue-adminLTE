@@ -2,11 +2,83 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>vue_admin</title>
+    <!-- 这句是原本vue生成的，<meta name="viewport" content="width=device-width,initial-scale=1.0">-->
+
+    <!-- 通知浏览器对屏幕宽度的响应 -->
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <title>vue_adminLTE</title>
+    <!-- 引入 bootstrap.min.css 这是 bootstrap 核心 css 文件 -->
+    <link href="https://cdn.bootcss.com/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <!-- 引入 font-awesome.min.css 这是 图标需要的 css 文件 -->
+    <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <!--引入 ionicons.min.css 这是 图标需要的 css 文件 -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.4.6/css/ionicons.min.css" rel="stylesheet">
+    <!-- 引入 AdminLTE.min.css 这是 AdminLTE 核心 css 文件 -->
+    <link href="https://cdn.bootcss.com/admin-lte/2.4.8/css/AdminLTE.min.css" rel="stylesheet">
+    <!-- adminLTE 所需要的 skins -->
+    <link href="https://cdn.bootcss.com/admin-lte/2.4.8/css/skins/_all-skins.min.css" rel="stylesheet">
+    <!-- 引入 dataTables.bootstrap.min.css 这是 表格 需要的 css 文件 -->
+    <link href="https://cdn.bootcss.com/datatables/1.10.19/css/dataTables.bootstrap.min.css" rel="stylesheet">
+    <!-- 引入 Date Picker bootstrap-datepicker.min.css 这是 时间选择器 需要的 css 文件 -->
+    <link href="https://cdn.bootcss.com/bootstrap-datepicker/1.8.0/css/bootstrap-datepicker.min.css" rel="stylesheet">
+    <!-- 引入 iCheck 这是 处理 checkbox 和 radio css 文件 -->
+    <link href="https://cdn.bootcss.com/iCheck/1.0.2/skins/flat/all.css" rel="stylesheet">
+    <!-- 引入 iCheck 这是 处理 选择框 css 文件 -->
+    <link href="https://cdn.bootcss.com/select2/4.0.6-rc.1/css/select2.min.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/r29/html5.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!--引入谷歌字体，fonts.loli.net 为谷歌字体的 CDN-->
+    <link rel="stylesheet" href="https://fonts.loli.net/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
   </head>
   <body>
     <div id="app"></div>
     <!-- built files will be auto injected -->
+
+    <!-- 引入 jQuery 3 -->
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <!-- 引入 jQuery UI 1.12.1 -->
+    <link href="https://cdn.bootcss.com/jqueryui/1.12.1/jquery-ui.min.css" rel="stylesheet">
+
+    <!-- 使用Bootstrap工具提示解决jQuery UI工具提示中的冲突 -->
+    <script>
+        $.widget.bridge('uibutton', $.ui.button);
+    </script>
+
+    <!-- Bootstrap 3.3.7 -->
+    <script src="https://cdn.bootcss.com/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- daterangepicker -->
+    <script src="https://cdn.bootcss.com/bootstrap-daterangepicker/3.0.3/moment.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap-daterangepicker/3.0.3/daterangepicker.min.js"></script>
+    <!-- Bootstrap WYSIHTML5 -->
+    <script src="https://cdn.bootcss.com/wysihtml5/0.3.0/wysihtml5.min.js"></script>
+    <!-- Slimscroll -->
+    <script src="https://cdn.bootcss.com/jQuery-slimScroll/1.3.8/jquery.slimscroll.min.js"></script>>
+    <!-- FastClick -->
+    <script src="https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js"></script>
+    <!--引入 adminlte.js 文件-->
+    <script src="https://cdn.bootcss.com/admin-lte/2.4.8/js/adminlte.js"></script>
+    <!--引入 icheck.min.js 文件-->
+    <script src="https://cdn.bootcss.com/iCheck/1.0.2/icheck.min.js"></script>
+    <!--引入 select2.min.js 文件-->
+    <script src="https://cdn.bootcss.com/select2/4.0.6-rc.1/js/select2.min.js"></script>
+    <!--引入 inputmask.min.js 文件 这个是输入框格式限制插件 -->
+    <script src="https://cdn.bootcss.com/jquery.inputmask/3.3.4/inputmask/inputmask.min.js"></script>
+    <!-- AdminLTE for demo purposes -->
+    <script src="https://cdn.bootcss.com/admin-lte/2.4.8/js/demo.js"></script>
+
+    <script>
+        $(function () {
+            $('input').iCheck({
+                checkboxClass: 'icheckbox_square-blue',
+                radioClass: 'iradio_square-blue',
+                increaseArea: '20%' /* optional */
+            });
+        });
+    </script>
   </body>
 </html>

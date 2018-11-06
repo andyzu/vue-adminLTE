@@ -4,8 +4,9 @@
 		<h2>使用说明</h2>
 		<ul>
 			<li>
-				这里是使用介绍，很简单的一个东西，方便大家使用 vue+adminLTE ! 是按照中国人的习惯来进行优化的。
+				这里是使用介绍，很简单的一个东西，方便大家使用 vue+adminLTE ! 是按照中国人的习惯来进行优化的。大家git下来后，直接在该目录里运行 npm run dev 命令；
 			</li>
+			<br>
 			<li>
 				<a href="http://router.vuejs.org/" target="_blank">使用说明</a>
 			</li>
