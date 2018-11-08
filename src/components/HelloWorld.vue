@@ -16,6 +16,13 @@
 			<li>
 				<a href="https://adminlte.io/" target="_blank">AdminLTE官网</a>
 			</li>
+			<li>
+				<!-- Indicates a successful or positive action -->
+				<button type="button" class="btn btn-success">演示</button>
+			</li>
+			<li>
+				演示界面，都放在src/views/demo这个目录里了。
+			</li>
 			<br>
 		</ul>
 		<h2>友情赞助</h2>
