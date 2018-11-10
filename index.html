@@ -22,7 +22,7 @@
     <!-- 引入 Date Picker bootstrap-datepicker.min.css 这是 时间选择器 需要的 css 文件 -->
     <link href="https://cdn.bootcss.com/bootstrap-datepicker/1.8.0/css/bootstrap-datepicker.min.css" rel="stylesheet">
     <!-- 引入 iCheck 这是 处理 checkbox 和 radio css 文件 -->
-    <link href="https://cdn.bootcss.com/iCheck/1.0.2/skins/flat/all.css" rel="stylesheet">
+    <link href="https://cdn.bootcss.com/iCheck/1.0.2/skins/flat/blue.css" rel="stylesheet">
     <!-- 引入 iCheck 这是 处理 选择框 css 文件 -->
     <link href="https://cdn.bootcss.com/select2/4.0.6-rc.1/css/select2.min.css" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -44,10 +44,7 @@
     <!-- 引入 jQuery UI 1.12.1 -->
     <link href="https://cdn.bootcss.com/jqueryui/1.12.1/jquery-ui.min.css" rel="stylesheet">
 
-    <!-- 使用Bootstrap工具提示解决jQuery UI工具提示中的冲突 -->
-    <script>
-        $.widget.bridge('uibutton', $.ui.button);
-    </script>
+
 
     <!-- Bootstrap 3.3.7 -->
     <script src="https://cdn.bootcss.com/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -72,6 +69,9 @@
     <script src="https://cdn.bootcss.com/admin-lte/2.4.8/js/demo.js"></script>
 
     <script>
+        // //使用Bootstrap工具提示解决jQuery UI工具提示中的冲突
+        // $.widget.bridge('uibutton', $.ui.button);
+
         $(function () {
             $('input').iCheck({
                 checkboxClass: 'icheckbox_square-blue',
